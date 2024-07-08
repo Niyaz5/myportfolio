@@ -1,86 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar Example</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #3f3d3a
-;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;
+background-color: #444;
 }
+
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: rgba(0, 0, 0);
-    background-color: rgba(34, 192, 34);
-    position: fixed;
-    width: 100%;
-    border-bottom: .1px solid #ddd;
-    box-shadow: 0 0 18px #ddd;
-    
+  overflow: hidden;
+  background-color: #34F30F;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 13px;
 }
 
+.navbar li {
+  float: right;
+  display: block;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: color 1s;
+}
+
+.navbar li:hover {
+  background: #ddd;
+  color: black;
+  cursor: pointer;
+}
 .brand-name {
     font-size: 24px;
     font-weight:bold;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     cursor: pointer;
+    color: #000;
+    padding-top: 10px;
     
 }
 
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+  color: #ddd;
+  
 }
-
-.nav-links li {
-    margin-left: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: rgba(0, 0, 0);
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #d1cfcc;
-}
-
 a{
- text-decoration: none;
- color: rgba(0, 0, 0);
+ 	text-decoration: none;
+    
 }
-li{
- font-size: 18px
-}
-
-    </style>
+</style>
 </head>
 <body>
-    <nav class="navbar">
-   <a href="https://github.com/Niyaz5/">
-        <div class="brand-name">MUHAMMED NIYAZ</div></a>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+
+<div class="navbar">
+
+  <li href="#home">Hire me</li>
+  <li href="#news">Projects</li>
+  <li href="#contact">services</li>
+  <li href="#home">About</li>
+  <li href="#news">Home</li>
+<a href="https://github.com/Niyaz5/">
+  <div class="brand-name">MUHAMMED NIYAZ</div></a>
+</div>
+
+<div class="main">
+  <h1>Fixed Top Menu</h1>
+  <h2>Scroll this page to see the effect</h2>
+  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+</div>
+
 </body>
 </html>
